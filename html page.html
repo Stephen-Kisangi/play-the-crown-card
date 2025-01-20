@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Guess Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1 class="main-heading">👑 The Crown Here 😄</h1>
+    </header>
+
+    <!-- Welcoming Heading -->
+    <h1 class="welcome-heading">🎉 Welcome to the Interesting Card Game! 🃏✨<br>Let's Have Some Fun! 😄</h1><br><br>
+
+    <!-- Main container for the card game -->
+    <div class="container">
+        <!-- Buttons for drawing and checking the card -->
+        <div class="button-container">
+            <button onclick="drawCard()">🎴 Draw Card</button>
+            <button onclick="checkGuess()">✔️ Check Guess</button>
+        </div>
+
+        <!-- Instructional text -->
+        <p class="margin-text">Pick a Card and Suit from the options below:</p>
+
+        <!-- Dropdowns for guessing card value and suit -->
+        <div class="dropdown-container">
+            <select id="valueGuess">
+                <option value="1">Ace</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+                <option value="4">Four</option>
+                <option value="5">Five</option>
+                <option value="6">Six</option>
+                <option value="7">Seven</option>
+                <option value="8">Eight</option>
+                <option value="9">Nine</option>
+                <option value="10">Ten</option>
+                <option value="11">Jack</option>
+                <option value="12">Queen</option>
+                <option value="13">King</option>
+            </select>
+
+            <select id="suitGuess">
+                <option value="club">♣️ Club</option>
+                <option value="diamond">♦️ Diamond</option>
+                <option value="heart">♥️ Heart</option>
+                <option value="spade">♠️ Spade</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Feedback area -->
+    <p class="feedback">Make a guess and see how you do! 🌟</p>
+
+    <!-- External JavaScript file -->
+    <script src="cardGame.js"></script>
+
+</body>
+</html>
