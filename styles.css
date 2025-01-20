@@ -1,15 +1,10 @@
 body {
     font-family: 'Comic Sans MS', Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column; /* Stacks heading and container */
     margin: 0;
-    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
     color: #333;
+    text-align: center;
 }
-
 header {
     background-color: #4caf50;
     color: white;
