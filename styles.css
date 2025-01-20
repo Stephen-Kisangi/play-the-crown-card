@@ -16,7 +16,7 @@ header {
 }
 
 h1.main-heading {
-    font-family: 'Pacifico', cursive; /* Apply the interesting font */
+    font-family: 'Righteous', sans-serif; /* Apply the interesting font */
     font-size: 3.5em;
     margin: 0;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -31,13 +31,14 @@ h1 {
 
 .container {
     width: 90%; /* Makes the container responsive */
-    max-width: 400px; /* Max width for larger screens */
+    max-width: 550px; /* Max width for larger screens */
     padding: 20px;
     background: #fff;
     margin: 40px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     text-align: center;
+    
 }
 
 /* Flexbox for horizontal layout of buttons */
@@ -57,7 +58,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     width: 48%;
-    font-size: 1em;
+    font-size: 1.5em;
     transition: all 0.3s ease;
 }
 
@@ -78,6 +79,7 @@ button:hover {
     color: #555;
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 1.3em;
 }
 
 /* Flexbox for horizontal layout of dropdowns */
